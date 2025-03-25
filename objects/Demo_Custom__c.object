@@ -162,8 +162,7 @@
     <pluralLabel>Demo Objects</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
-    
+    <visibility>Public</visibility>    
     <fields>
         <fullName>Field_One__c</fullName>
         <defaultValue>false</defaultValue>
@@ -184,6 +183,15 @@
         <fullName>Field_Three__c</fullName>
         <externalId>false</externalId>
         <label>Field Three</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Field_Four__c</fullName>
+        <externalId>false</externalId>
+        <label>Field Four</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Email</type>
